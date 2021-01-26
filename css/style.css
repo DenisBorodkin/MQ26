@@ -454,21 +454,18 @@ body {
 .aside-conteiner-trends-footer {
   padding-left: 15px;
   padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
+  justify-content: space-between;
   display: flex;
  
 }
 .aside-block-trends-footer {
   min-height: 440px;
   margin-bottom: 65px;
-  margin-right: 113px;
+  
   display: flex;
   flex-direction: column;
 }
-.aside-block-trends-footer:nth-last-child(1){
-  margin-right:0;
-}
+
 .aside-card-content-trends-footer {
   border: 4px solid #b59f5b;
   padding-top: 25px;
