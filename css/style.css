@@ -425,6 +425,11 @@ body {
 }
 .aside-blocks-trends-footer {
   margin-top: 54px;
+  width: 1170px;     
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .aside-block-title-trends-footer {
   text-align: center;
@@ -452,8 +457,6 @@ body {
 }
 
 .aside-conteiner-trends-footer {
-  padding-left: 15px;
-  padding-right: 15px;
   justify-content: space-between;
   display: flex;
  
