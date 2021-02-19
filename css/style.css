@@ -659,16 +659,20 @@ body {
 }
 .popup {
   width: 390px;
-  min-height: 589px;
+  box-sizing: border-box;
   background-color: #ffffff;
   padding-top: 54px;
   padding-left: 30px;
   padding-right: 30px;
   padding-bottom: 54px;
 }
+.popup__container {
+  text-align: center;
+  min-width: 330px;
+}
 .fixed-name {
   font-size: 20px;
-  line-height: 29, 15px;
+
   text-transform: uppercase;
   font-weight: 700;
   color: #0f0d0e;
@@ -693,11 +697,12 @@ body {
   color: #000000;
   font-weight: 400;
   display: block;
+  text-align: left;
 }
 .select-popup {
   font-family: inherit;
   font-size: 13px;
-  width: 330px;
+  width: 324px;
   min-height: 48px;
   background-color: #f4f7f6;
   color: #000000;
@@ -711,15 +716,32 @@ body {
   background-image: url("../SVG/form-arrows.svg");
   background-repeat: no-repeat;
   background-position: right 5px center;
+  background-size: 20px;
+  opacity: 54%;
+}
+.radio-conteiner {
+  text-align: left;
 }
 .field-textarea {
-  min-width: 330px;
+  min-width: 324px;
   min-height: 132px;
+  box-sizing: border-box;
   background-color: #f4f7f6;
+  font-family: inherit;
+  opacity: 54%;
+  padding: 21px;
 }
-
-
-
+.button-popup {
+  width: 330px;
+  height: 46px;
+  background-color: #b59f5b;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: uppercase;
+}
 
 
 
